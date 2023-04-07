@@ -465,6 +465,6 @@ source "drivers/net/hyperv/Kconfig"
 
 source "drivers/net/rmnet/Kconfig"
 
-source "drivers/net/wireguard/Kconfig"
+source "net/wireguard/Kconfig"
 
 endif # NETDEVICES
