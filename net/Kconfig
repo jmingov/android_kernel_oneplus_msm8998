@@ -59,7 +59,7 @@ config DISABLE_NET_SKB_FRAG_CACHE
 	  If you are unsure how to answer this question, answer N.
 
 menu "Networking options"
-
+source "net/wireguard/Kconfig"
 source "net/packet/Kconfig"
 source "net/unix/Kconfig"
 source "net/xfrm/Kconfig"
