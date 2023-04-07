@@ -72,4 +72,3 @@ obj-$(CONFIG_NTB_NETDEV) += ntb_netdev.o
 
 obj-$(CONFIG_FUJITSU_ES) += fjes/
 obj-$(CONFIG_RMNET) += rmnet/
-obj-$(CONFIG_WIREGUARD) += wireguard/
